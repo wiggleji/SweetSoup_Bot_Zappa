@@ -1,11 +1,13 @@
 # Sweetbot.py
 
 import os
-from flask import Flask, request, jsonify
+import requests
+import json
 
 
-app = Flask(__name__)
-
+@app.route('/', methods=['POST'])
+def index():
+    return 'Hello World!'
 
 @app.route('/keyboard', methods=['GET'])
 def Keyboard():
