@@ -102,8 +102,8 @@ def get_menu():
     cheonan_find_menu(today_as_number)
 
     # save as total menu with Jukjeon and Cheonan
-    total_menu['죽전'] = jukjeon_menu
-    total_menu['천안'] = cheonan_menu
+    total_menu['jukjeon'] = jukjeon_menu
+    total_menu['cheonan'] = cheonan_menu
 
     return total_menu
 
